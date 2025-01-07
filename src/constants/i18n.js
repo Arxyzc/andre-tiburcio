@@ -45,26 +45,26 @@ const resources = {
                 experience: "3+ años",
             },
             skill4: {
-                experience: "1+ años",
+                experience: "1.5+ años",
             },
             skill5: {
                 experience: "1+ años",
             },
             skill6: {
-                experience: "1+ años",
+                experience: "3+ años",
             },
             skill7: {
-                experience: "1+ años",
+                experience: "2+ años",
             },
         },
         experience: {
             experience1: {
                 position: "Programador",
-                description: "Describir el cargo y los antecedentes necesarios con el objetivo de atraer candidatos internos o externos para el empleo.",
+                description: "Desarollo de aplicaciones de realidad aumentada",
             },
             experience2: {
                 position: "Logística",
-                description: "Especialmente para que un nuevo jefe entienda el alcance y nivel de responsabilidad que se espera en el rol.",
+                description: "Logistica Y Administracion",
             },
         },
         contact: {
@@ -130,26 +130,26 @@ const resources = {
                 experience: "3+ year",
             },
             skill4: {
-                experience: "1+ year",
+                experience: "1.5+ year",
             },
             skill5: {
                 experience: "1+ year",
             },
             skill6: {
-                experience: "1+ year",
+                experience: "3+ year",
             },
             skill7: {
-                experience: "1+ year",
+                experience: "2+ year",
             },
         },
         experience: {
             experience1: {
                 position: "Programmer",
-                description: "Describe the position and the necessary background in order to attract internal or external candidates for employment.",
+                description: "Development of augmented reality applications",
             },
             experience2: {
                 position: "Logistics",
-                description: "Especially so that a new boss understands the scope and level of responsibility expected in the role.",
+                description: "Logistics and Administration",
             },
         },
         contact: {

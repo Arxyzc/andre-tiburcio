@@ -19,7 +19,7 @@ const About = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
-                className="p-4 text-6xl uppercase lg:text-[8rem]">
+                className="p-4 text-6xl uppercase lg:text-[5rem]">
                     {t('about.text1')}
             </motion.h3>
             <motion.p 

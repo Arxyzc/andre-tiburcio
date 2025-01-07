@@ -13,18 +13,18 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { SiPython } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 import image1 from "../assets/project1.jpeg";
 import image2 from "../assets/project2.jpeg";
 import image3 from "../assets/project3.jpeg";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
+import user2 from "../assets/profile-pictures/user2.png";
 
 export const NAVIGATION_LINKS = [
   { label: 'navigation.about', href: "#about" },
-  { label: 'navigation.projects', href: "#projects" },
+  /*{ label: 'navigation.projects', href: "#projects" },*/
   { label: 'navigation.skills', href: "#skills" },
   { label: 'navigation.experience', href: "#experience" },
   { label: 'navigation.contact', href: "#contact" },
@@ -77,7 +77,7 @@ export const SKILLS = [
     experience: "skills.skill3.experience",
   },
   {
-    icon: <SiPython className="text-4xl lg:text-6xl text-red-600" />,
+    icon: <SiPython className="text-4xl lg:text-6xl text-blue-600" />,
     name: "Python",
     experience: "skills.skill4.experience",
   },
@@ -92,8 +92,8 @@ export const SKILLS = [
     experience: "skills.skill6.experience",
   },
   {
-    icon: <SiFlutter className="text-4xl lg:text-6xl text-blue-400" />,
-    name: "Flutter",
+    icon: <FaJava className="text-4xl lg:text-6xl text-blue-400" />,
+    name: "Java",
     experience: "skills.skill7.experience",
   },
 ];
@@ -106,7 +106,7 @@ export const EXPERIENCES = [
     image: user1,
   },
   {
-    name: "MUD",
+    name: "TRANSPORTES Y MUDANZA AVIÑA",
     position: "experience.experience2.position",
     description: "experience.experience2.description",
     image: user2,
@@ -114,7 +114,7 @@ export const EXPERIENCES = [
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
-  {
+  /*{
     href: "https://x.com/",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
@@ -129,13 +129,13 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://x.com/",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
+  },*/
   {
-    href: "https://github.com/",
+    href: "https://github.com/Arxyzc",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/luis-andr%C3%A9-tiburcio-melchor-695136312",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];

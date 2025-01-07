@@ -7,7 +7,7 @@ const HeroSection = () => {
 
     return (
         <>
-            <div className="relative flex min-h-screen items-end justify-center" id="hero">
+            <div className="flex min-h-screen items-end justify-center" id="hero">
                 <motion.img 
                     src={profilePic} 
                     alt={t('profile.name')} // Usando traducción para el atributo alt
