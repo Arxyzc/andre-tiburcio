@@ -51,7 +51,7 @@ const Projects = () => {
                             image={project.image}
                             title={t(project.title)}   
                             subtitle={t(project.subtitle)}  
-                            //link={project.link || "#"}
+                            link={project.link || "https://chatdemo-react.netlify.app/auth"}
                         />
                     </motion.div>
                 ))}

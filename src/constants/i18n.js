@@ -21,9 +21,9 @@ const resources = {
         },
         projects: {
             project1: {
-            title: "Plataforma de E-commerce",
-            subtitle: "Una plataforma de comercio electrónico full-stack construida con React, Node.js y MongoDB.",
-            },
+            title: "Chat Demo",
+            subtitle: "Un chat en linea para pc, full-stack construida con React, Node.js y MongoDB.",
+            },/*
             project2: {
             title: "Aplicación de Redes Sociales",
             subtitle: "Una aplicación de redes sociales desarrollada con Next.js y Firebase.",
@@ -31,7 +31,7 @@ const resources = {
             project3: {
                 title: "Herramientas de gestión",
                 subtitle: "Una herramienta de gestión de proyectos construida con Django y PostgreSQL.",
-            },
+            },*/
         // Agrega más proyectos aquí...
         },
         skills: {
@@ -106,9 +106,9 @@ const resources = {
         },
         projects: {
             project1: {
-            title: "E-commerce Platform",
-            subtitle: "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
-            },
+            title: "Chat Demo",
+            subtitle: "A full-stack online chat for PC built with React, Node.js and MongoDB.",
+            },/*
             project2: {
             title: "Social Media App",
             subtitle: "A social media application developed using Next.js and Firebase.",
@@ -116,7 +116,7 @@ const resources = {
             project3: {
             title: "Management Tool",
             subtitle: "A project management tool built with Django and PostgreSQL.",
-            },
+            },*/
         // Agrega más proyectos aquí...
         },
         skills: {

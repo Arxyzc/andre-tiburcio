@@ -24,7 +24,7 @@ import user2 from "../assets/profile-pictures/user2.png";
 
 export const NAVIGATION_LINKS = [
   { label: 'navigation.about', href: "#about" },
-  /*{ label: 'navigation.projects', href: "#projects" },*/
+  { label: 'navigation.projects', href: "#projects" },
   { label: 'navigation.skills', href: "#skills" },
   { label: 'navigation.experience', href: "#experience" },
   { label: 'navigation.contact', href: "#contact" },
@@ -48,7 +48,7 @@ export const PROJECTS = [
     subtitle: "projects.project1.subtitle",
     image: image1,
   },
-  {
+  /*{
     title: "projects.project2.title",
     subtitle: "projects.project2.subtitle",
     image: image2,
@@ -57,7 +57,7 @@ export const PROJECTS = [
     title: "projects.project3.title",
     subtitle: "projects.project3.subtitle",
     image: image3,
-  },
+  },*/
 ];
 
 export const SKILLS = [
