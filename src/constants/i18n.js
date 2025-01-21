@@ -36,25 +36,25 @@ const resources = {
         },
         skills: {
             skill1: {
-                experience: "1.5+ años",
+                experience: "2.5+ años",
             },
             skill2: {
-                experience: "1+ años",
+                experience: "2+ años",
             },
             skill3: {
                 experience: "3+ años",
             },
             skill4: {
-                experience: "1.5+ años",
+                experience: "2.5+ años",
             },
             skill5: {
-                experience: "1+ años",
+                experience: "2+ años",
             },
             skill6: {
-                experience: "3+ años",
+                experience: "4+ años",
             },
             skill7: {
-                experience: "2+ años",
+                experience: "3+ años",
             },
         },
         experience: {
@@ -121,25 +121,25 @@ const resources = {
         },
         skills: {
             skill1: {
-                experience: "1.5+ year",
+                experience: "2.5+ year",
             },
             skill2: {
-                experience: "1+ year",
+                experience: "2+ year",
             },
             skill3: {
                 experience: "3+ year",
             },
             skill4: {
-                experience: "1.5+ year",
+                experience: "2.5+ year",
             },
             skill5: {
-                experience: "1+ year",
+                experience: "2+ year",
             },
             skill6: {
-                experience: "3+ year",
+                experience: "4+ year",
             },
             skill7: {
-                experience: "2+ year",
+                experience: "3+ year",
             },
         },
         experience: {
