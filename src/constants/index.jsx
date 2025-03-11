@@ -50,25 +50,12 @@ export const PROJECTS = [
     image: image1,
     link: "https://chatdemo-react.netlify.app/auth",
   },
-<<<<<<< HEAD
-  /*{
-    title: "projects.project2.title",
-    subtitle: "projects.project2.subtitle",
-    image: image2,
-  },
-  {
-    title: "projects.project3.title",
-    subtitle: "projects.project3.subtitle",
-    image: image3,
-  },*/
-=======
   {
     title: "projects.comingSoon.title",
     subtitle: "projects.comingSoon.subtitle",
     image: image2, 
     comingSoon: true, //Proyecto en construcción
-  }
->>>>>>> 35df845 (Actualización del footer, traducciones y Nueva seccion de Certificado.)
+  },
 ];
 
 export const SKILLS = [
@@ -117,11 +104,8 @@ export const EXPERIENCES = [
     image: user1,
   },
   {
-<<<<<<< HEAD
     name: "TRANSPORTES Y MUDANZA AVIÑA",
-=======
     name: "MUDAVIÑA",
->>>>>>> 35df845 (Actualización del footer, traducciones y Nueva seccion de Certificado.)
     position: "experience.experience2.position",
     description: "experience.experience2.description",
     image: user2,
