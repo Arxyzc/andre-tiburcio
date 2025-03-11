@@ -16,7 +16,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 
 import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
+import image2 from "../assets/proximamente.png";
 import image3 from "../assets/project3.jpeg";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
@@ -27,6 +27,7 @@ export const NAVIGATION_LINKS = [
   { label: 'navigation.projects', href: "#projects" },
   { label: 'navigation.skills', href: "#skills" },
   { label: 'navigation.experience', href: "#experience" },
+  { label: 'navigation.certificates', href: "#certificates" },
   { label: 'navigation.contact', href: "#contact" },
 ];
 
@@ -47,7 +48,9 @@ export const PROJECTS = [
     title: "projects.project1.title",
     subtitle: "projects.project1.subtitle",
     image: image1,
+    link: "https://chatdemo-react.netlify.app/auth",
   },
+<<<<<<< HEAD
   /*{
     title: "projects.project2.title",
     subtitle: "projects.project2.subtitle",
@@ -58,6 +61,14 @@ export const PROJECTS = [
     subtitle: "projects.project3.subtitle",
     image: image3,
   },*/
+=======
+  {
+    title: "projects.comingSoon.title",
+    subtitle: "projects.comingSoon.subtitle",
+    image: image2, 
+    comingSoon: true, //Proyecto en construcción
+  }
+>>>>>>> 35df845 (Actualización del footer, traducciones y Nueva seccion de Certificado.)
 ];
 
 export const SKILLS = [
@@ -106,7 +117,11 @@ export const EXPERIENCES = [
     image: user1,
   },
   {
+<<<<<<< HEAD
     name: "TRANSPORTES Y MUDANZA AVIÑA",
+=======
+    name: "MUDAVIÑA",
+>>>>>>> 35df845 (Actualización del footer, traducciones y Nueva seccion de Certificado.)
     position: "experience.experience2.position",
     description: "experience.experience2.description",
     image: user2,
