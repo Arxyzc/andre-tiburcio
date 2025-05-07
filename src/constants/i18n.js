@@ -25,6 +25,18 @@ const resources = {
                 title: "Chat Demo",
                 subtitle: "Un chat en línea con React, Node.js y MongoDB.",
             },
+            project2: {
+                title: "Portafolio Demo",
+                subtitle: "Un portafolio basico hecho con HTML y CSS",
+            },
+            project3: {
+                title: "App Avalon",
+                subtitle: "Una app punto de venta hecho en Flutter",
+            },
+            project4: {
+                title: "ChatWeb",
+                subtitle: "Un chat con videollamada, hecho con .NET, Angular",
+            },
             comingSoon: {
                 title: "Próximamente",
                 subtitle: "Este proyecto aún está en desarrollo.",
@@ -32,7 +44,7 @@ const resources = {
         },         
         skills: {
             skill1: {
-                experience: "2.5+ años",
+                experience: "4+ años",
             },
             skill2: {
                 experience: "2+ años",
@@ -41,7 +53,7 @@ const resources = {
                 experience: "3+ años",
             },
             skill4: {
-                experience: "2.5+ años",
+                experience: "2+ años",
             },
             skill5: {
                 experience: "2+ años",
@@ -51,6 +63,12 @@ const resources = {
             },
             skill7: {
                 experience: "3+ años",
+            },
+            skill8: {
+                experience: "3+ años",
+            },
+            skill9: {
+                experience: "2+ años",
             },
         },
         experience: {
@@ -68,7 +86,7 @@ const resources = {
             certificate1: {
                 title: "Certificado en React",
                 institution: "Coursera",
-                date: "Febrero 2024"
+                date: "Marzo 2025"
             },
             pdf_error: "Tu navegador no puede mostrar el PDF.",
             download: "Descargar PDF",
@@ -106,16 +124,28 @@ const resources = {
         },
         profile: {
             name: "Andre Tiburcio",
-            info: "A skilled developer passionate about creating innovative and effective solutions. Let's make your ideas come true!",
+            info: "A skilled developer, passionate about creating innovative and effective solutions, let's make your ideas a reality!",
         },
         about: {
-            text1: "I create unique and efficient websites where creativity and functionality perfectly come together.",
-            text2: "Hello! I'm Andre Tiburcio, a growing developer with a passion for app and video game development. I enjoy creating web experiences that are not only functional and easy to use, but also visually appealing. My attention to detail ensures that each project looks professional and polished. Besides programming, I love exploring new cultures and cuisines. My curiosity keeps me up to date with the latest technologies and development trends, allowing me to offer innovative and practical solutions. Whether I'm developing an app, video game, or website, I strive for excellence in every project.",
+            text1: "I create unique and efficient websites, where creativity and functionality come together perfectly.",
+            text2: "Hi! I'm Andre Tiburcio, a growing developer with a passion for app and game development. I enjoy creating web experiences that are not only functional and easy to use, but also visually appealing. My attention to detail ensures that each project looks professional and polished. In addition to programming, I love exploring new cultures and cuisines. My curiosity keeps me up to date with the latest technologies and development trends, allowing me to deliver innovative and practical solutions. Whether I'm developing an app, a video game or a website, I strive for excellence in every project.",
         },
         projects: {
             project1: {
                 title: "Chat Demo",
                 subtitle: "An online chat built with React, Node.js, and MongoDB.",
+            },
+            project2: {
+                title: "Demo Portfolio",
+                subtitle: "A basic portfolio made with HTML and CSS",
+            },
+            project3: {
+                title: "App Avalon",
+                subtitle: "A point-of-sale app made in Flutter",
+            },
+            project4: {
+                title: "ChatWeb",
+                subtitle: "A chat with video call, made with .NET, Angular",
             },
             comingSoon: {
                 title: "Coming Soon",
@@ -124,7 +154,7 @@ const resources = {
         },         
         skills: {
             skill1: {
-                experience: "2.5+ year",
+                experience: "4+ year",
             },
             skill2: {
                 experience: "2+ year",
@@ -133,7 +163,7 @@ const resources = {
                 experience: "3+ year",
             },
             skill4: {
-                experience: "2.5+ year",
+                experience: "2+ year",
             },
             skill5: {
                 experience: "2+ year",
@@ -143,6 +173,12 @@ const resources = {
             },
             skill7: {
                 experience: "3+ year",
+            },
+            skill8: {
+                experience: "3+ year",
+            },
+            skill9: {
+                experience: "2+ year",
             },
         },
         experience: {
@@ -160,7 +196,7 @@ const resources = {
             certificate1: {
                 title: "React Certificate",
                 institution: "Coursera",
-                date: "February 2024"
+                date: "March 2025"
             },
             pdf_error: "Your browser cannot display the PDF.",
             download: "Download PDF",

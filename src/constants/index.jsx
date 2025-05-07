@@ -1,23 +1,26 @@
 import {
-  FaXTwitter,
+  // FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaDiscord,
-  FaInstagram
+  // FaFacebook,
+  // FaDiscord,
+  // FaInstagram
 } from "react-icons/fa6";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { RiJavascriptFill } from "react-icons/ri";
-import { SiPython } from "react-icons/si";
+import { FaMicrosoft } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
+import { SiAngular, SiDotnet } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
 
 import image1 from "../assets/project1.jpeg";
 import image2 from "../assets/proximamente.png";
-import image3 from "../assets/project3.jpeg";
+import image3 from "../assets/project3.jpg";
+import image4 from "../assets/project4.png";
+import image5 from "../assets/project5.png";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.png";
@@ -51,6 +54,24 @@ export const PROJECTS = [
     link: "https://chatdemo-react.netlify.app/auth",
   },
   {
+    title: "projects.project2.title",
+    subtitle: "projects.project2.subtitle",
+    image: image3, 
+    link: "https://portafoliotm.netlify.app/",
+  },
+  {
+    title: "projects.project3.title",
+    subtitle: "projects.project3.subtitle",
+    image: image4, 
+    // link: "",
+  },
+  {
+    title: "projects.project4.title",
+    subtitle: "projects.project4.subtitle",
+    image: image5, 
+    // link: "",
+  },
+  {
     title: "projects.comingSoon.title",
     subtitle: "projects.comingSoon.subtitle",
     image: image2, 
@@ -70,13 +91,13 @@ export const SKILLS = [
     experience: "skills.skill2.experience",
   },
   {
-    icon: <RiJavascriptFill className="text-4xl lg:text-6xl text-yellow-400" />,
-    name: "JavaScript",
+    icon: <SiAngular className="text-4xl lg:text-6xl text-red-500" />,
+    name: "Angular",
     experience: "skills.skill3.experience",
   },
   {
-    icon: <SiPython className="text-4xl lg:text-6xl text-blue-600" />,
-    name: "Python",
+    icon: <FaMicrosoft className="text-4xl lg:text-6xl text-cyan-500" />,
+    name: "Azure",
     experience: "skills.skill4.experience",
   },
   {
@@ -90,9 +111,19 @@ export const SKILLS = [
     experience: "skills.skill6.experience",
   },
   {
-    icon: <FaJava className="text-4xl lg:text-6xl text-blue-400" />,
+    icon: <FaJava className="text-4xl lg:text-6xl text-blue-600" />,
     name: "Java",
     experience: "skills.skill7.experience",
+  },
+  {
+    icon: <SiDotnet className="text-4xl lg:text-6xl text-purple-700" />,
+    name: ".NET",
+    experience: "skills.skill8.experience",
+  },
+  {
+    icon: <SiFlutter className="text-4xl lg:text-6xl text-blue-400" />,
+    name: ".Flutter",
+    experience: "skills.skill9.experience",
   },
 ];
 
@@ -104,7 +135,6 @@ export const EXPERIENCES = [
     image: user1,
   },
   {
-    name: "TRANSPORTES Y MUDANZA AVIÑA",
     name: "MUDAVIÑA",
     position: "experience.experience2.position",
     description: "experience.experience2.description",
